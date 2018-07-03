@@ -1,1 +1,3 @@
 temp_images/
+tests/
+__pycache__/
