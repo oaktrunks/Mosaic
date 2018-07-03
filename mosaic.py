@@ -49,6 +49,15 @@ def closestTuple(target,tuples, dist = euclid2):
     return min((dist(t,target),t) for t in tuples)[1]
 
 def get_avg_color(image_data):
+    """
+    returns average color of an image
+
+    Args:
+        image_data: image data to be processed
+
+    Returns:
+        tuple containing average rgb color of image
+    """
     temp = image_data.copy()
     temp.thumbnail((1,1))
     return temp.getpixel((0,0))
