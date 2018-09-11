@@ -1,2 +1,2 @@
 # Mosaic
-Image processing project that turns an existing image into a mosaic consisting of other existing images
+Image processing project that turns an existing image into a photographic mosaic using other images as pixels
